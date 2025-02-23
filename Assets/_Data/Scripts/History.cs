@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Box : MonoBehaviour
+public class History : MonoBehaviour
 {
     // Hàm in ra màn hình debug
     public void IN()
