@@ -28,7 +28,7 @@ public  class Piece : MonoBehaviour
     {
         CheckSide();
     }
-    public void CheckSide()
+    private void CheckSide()
     {
         if (this.gameObject.name[0] == 'W')
         {

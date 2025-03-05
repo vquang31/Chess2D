@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     static public PlayerManager instance;
-    public Player player1;
-    public Player player2;
+    private Player player1;
+    private Player player2;
 
     private void Awake()
     {

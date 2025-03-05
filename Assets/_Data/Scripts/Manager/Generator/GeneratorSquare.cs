@@ -3,8 +3,8 @@ using UnityEngine;
 public class GeneratorSquare : MonoBehaviour
 {
     static public GeneratorSquare instance;
-    public GameObject whiteSquare;
-    public GameObject blackSquare;
+    private GameObject whiteSquare;
+    private GameObject blackSquare;
 
     private void Awake()
     {
@@ -13,7 +13,6 @@ public class GeneratorSquare : MonoBehaviour
         blackSquare = GameObject.Find("Prefab_BlackSquare");
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         instance = this;
